@@ -1,4 +1,4 @@
-:root{
+:root {
     --red: rgb(166, 31, 31);
     --green: rgb(15, 116, 15);
     --yellow: rgb(202, 202, 0);
@@ -34,9 +34,11 @@ header {
 
 .catalog {
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
-    justify-content: center;
-    padding: 20px;
+    justify-content: space-around;
+    max-width: 100%;
+    padding: 10px;
     gap: 20px;
 }
 
@@ -72,11 +74,11 @@ footer {
     text-align: center;
 }
 
-/* Media Queries para dispositivos móveis */
+/* Ajustes responsivos para dispositivos menores */
+
 @media (max-width: 768px) {
     .product {
-        width: 90%;
-        margin: 10px 0;
+        width: 120px;
     }
 
     .logo {
@@ -88,17 +90,16 @@ footer {
     }
 }
 
-/* Media Queries para telas muito pequenas */
 @media (max-width: 480px) {
+    .product {
+        width: 120px;  
+    }
+
     .title {
         font-size: 1.2em;
     }
 
     .logo {
         width: 35px;
-    }
-
-    .product {
-        width: 95%;
     }
 }
