@@ -78,7 +78,7 @@ footer {
 
 @media (max-width: 768px) {
     .product {
-        width: 120px;
+        width: 130px;
     }
 
     .logo {
@@ -92,7 +92,7 @@ footer {
 
 @media (max-width: 480px) {
     .product {
-        width: 120px;  
+        width: 130px;  
     }
 
     .title {
