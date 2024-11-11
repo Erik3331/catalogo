@@ -32,21 +32,32 @@ header {
     font-size: 2em;
 }
 
+.tituloCR7{
+    background-color: var(--red);
+    width: 75%;
+    border-radius: 0 50px 50px 0;
+    color: var(--yellow);
+    padding: 7px;
+    border: double 4px var(--green);
+    border-left: none;
+}
+
 .catalog {
+    margin: auto;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: space-around;
     max-width: 100%;
     padding: 10px;
     gap: 20px;
 }
 
 .product {
+    margin: auto;
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
-    width: 300px;
+    width: 250px;
     text-align: center;
     padding: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -75,7 +86,11 @@ footer {
     text-align: center;
 }
 
-
+.tituloCatalogo{
+    padding-left: 50px;
+    color: black;
+    margin: 70px 0;
+}
 
 @media (max-width: 768px) {
     .product {
