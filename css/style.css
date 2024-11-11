@@ -32,24 +32,13 @@ header {
     font-size: 2em;
 }
 
-.tituloCR7{
-    background-color: var(--red);
-    width: 75%;
-    border-radius: 0 50px 50px 0;
-    color: var(--yellow);
-    padding: 7px;
-    border: double 4px var(--green);
-    border-left: none;
-}
-
 .catalog {
-    margin: auto;
     display: flex;
-    align-items: center;
+    align-items: stretch;
     flex-wrap: wrap;
-    max-width: 100%;
-    padding: 10px;
     gap: 20px;
+    margin: auto;
+    padding: 20px 5px ;
 }
 
 .product {
@@ -58,14 +47,15 @@ header {
     border: 1px solid #ddd;
     border-radius: 8px;
     width: 250px;
+    min-height: 300px;
     text-align: center;
     padding: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .product img {
-    width: 100%;
-    height: 100%;
+    width: 5rem;
+    height: 5rem;
     border-radius: 8px;
 }
 
@@ -87,14 +77,18 @@ footer {
 }
 
 .tituloCatalogo{
-    padding-left: 50px;
+    padding-left: 20px;
     color: black;
     margin: 70px 0;
 }
 
 @media (max-width: 768px) {
     .product {
-        width: 130px;
+        width: 110px;
+    }
+
+    .product h2{
+        font-size: 1rem;
     }
 
     .logo {
@@ -104,18 +98,8 @@ footer {
     .title {
         font-size: 1.5em;
     }
-}
 
-@media (max-width: 480px) {
-    .product {
-        width: 130px;  
-    }
-
-    .title {
-        font-size: 1.2em;
-    }
-
-    .logo {
-        width: 35px;
+    .tituloCatalogo{
+        font-size: 1.6rem;
     }
 }
