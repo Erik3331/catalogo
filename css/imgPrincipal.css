@@ -10,7 +10,7 @@
     height: 100%;
     width: 100%;
     background-size: cover;
-    background-position: center;
+    background-position: initial;
     background-repeat: no-repeat;
     filter: brightness(0.4) drop-shadow(0 4px 6px rgba(0, 0, 0, 0.234));
 }
@@ -33,9 +33,19 @@
     .perfume-title {
         font-size: 1rem;
     }
+
+    .imagem{
+        background-position: initial;
+
+    }
 }
 
 @media (max-width: 480px) {
+    .imagem{
+        background-position: initial;
+
+    }
+    
     .imgPrincipal {
         height: 15rem;
     }
